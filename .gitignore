@@ -1,15 +1,14 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+# OS Artifacts
+*.DS_Store
 
-pids
-logs
-results
-
+# NPM Artifacts
+node_modules/*
 npm-debug.log
-node_modules
+libpeerconnection.log
+coverage/*
+
+# IDE Artifacts
+.idea/*
+*.iml
+*.sublime-*
+nohup.out

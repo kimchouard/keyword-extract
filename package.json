@@ -1,0 +1,31 @@
+{
+  "name": "keyword-extract",
+  "version": "0.1.0",
+  "description": "Extract relevant information from a text.",
+  "author": [
+    "Kim CHOUARD <kim.chouard@gmail.com>",
+    "Alexis FASQUEL <alexis.fsq@gmail.com>"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec test/",
+    "coverage": "NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimchouard/keyword-extract"
+  },
+  "keywords": [
+    "extract",
+    "keywords"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.15.x",
+    "should": "2.1.x"
+  },
+  "licence": "WTFPL",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
