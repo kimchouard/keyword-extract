@@ -1,13 +1,16 @@
 {
   "name": "keyword-extract",
-  "version": "0.1.0",
-  "description": "Extract relevant information from a text.",
+  "version": "0.1.1",
+  "description": "Extract relevant keywords from a text.",
   "author": "Alexis FASQUEL <alexis.fsq@gmail.com>",
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec test/",
     "coverage": "NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/"
   },
   "main": "./lib",
+  "bin": {
+    "keyword-extract": "./bin/keyword-extract"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kimchouard/keyword-extract"
