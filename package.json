@@ -4,8 +4,7 @@
   "description": "Extract relevant keywords from a text.",
   "author": "Alexis FASQUEL <alexis.fsq@gmail.com>",
   "scripts": {
-    "test": "NODE_ENV=test mocha -R spec test/",
-    "coverage": "NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/"
+    "test": "NODE_ENV=test mocha -R spec test/"
   },
   "main": "./lib/keywords.js",
   "bin": {
