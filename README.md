@@ -15,7 +15,7 @@ var extractor = require('../lib/keyword.js');
 
 # Usage
 
-Here is the main functions available.
+For now, only one function is available, but more will come soon.
 
 ## extract
 
@@ -38,4 +38,5 @@ extractor.extract('en', 'I like goat from Paris.', function(words) {
 ## languages
 
 From now, the available languages are:
-- fr
+- fr (french)
+- en (english)
