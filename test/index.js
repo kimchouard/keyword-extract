@@ -1,7 +1,7 @@
 'use strict';
 require('should');
 
-var extractor = require('../lib/keyword.js');
+var extractor = require('../lib/keyword-extract.js');
 
 describe('Simple extract', function() {
 	var txt1 = 'test et un autre testt';
