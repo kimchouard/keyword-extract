@@ -1,7 +1,7 @@
 {
   "name": "keyword-extract",
   "version": "0.1.4",
-  "author": "Alexis FASQUEL <alexis.fsq@gmail.com> Kim Chouard <kim.chouard@gmail.com>",
+  "author": "Alexis FASQUEL <alexis.fsq@gmail.com>",
   "description": "Extract relevant keywords from a text.",
   "contributors": [ 
     {
