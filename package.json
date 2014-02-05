@@ -1,6 +1,6 @@
 {
   "name": "keyword-extract",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "author": "Alexis FASQUEL <alexis.fsq@gmail.com>",
   "description": "Extract relevant keywords from a text.",
   "contributors": [ 
